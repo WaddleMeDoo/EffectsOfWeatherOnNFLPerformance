@@ -7,7 +7,7 @@ To install, run `pip install -r requirements.txt`
 
 # Notebook Execution Order
 1. **weather.ipynb** - This notebook must be run first to generate weather averages
-2. *team_info.ipynb** - This notebook must be run second to generate NFL schedule, team info, and weather combined dataset
+2. **team_info.ipynb** - This notebook must be run second to generate NFL schedule, team info, and weather combined dataset
 3. Analysis notebooks can be run in any order: **nfl_weather_analysis.ipynb**, **temperature_analysis.ipynb**, **pace_of_play.ipynb**
 
 # Motivation
