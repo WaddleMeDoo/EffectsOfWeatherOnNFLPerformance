@@ -1,5 +1,16 @@
 # EffectsOfWeatherOnNFLPerformance
 
+# Requirements
+All required libraries are listed in requirements.txt
+
+To install, run `pip install -r requirements.txt`
+
+# Notebook Execution Order
+1. **weather.ipynb** - This notebook must be run first to generate weather averages
+2. *team_info.ipynb** - This notebook must be run second to generate NFL schedule, team info, and weather combined dataset
+3. Analysis notebooks can be run in any order: **nfl_weather_analysis.ipynb**, **temperature_analysis.ipynb**, **pace_of_play.ipynb**
+
+# Motivation
 In both popular and pundit discussion of NFL matches, a commonly recurring storyline is the effect of weather (or in the case of indoor or closed dome games, the lack thereof) on team performances, in general and for specific franchises.
 
 For instance, it is taken for granted among the NFL community that indoor games may result in more efficient passing compared to those held in cold weather. Wind is also a variable that many fans believe to be a factor in offensive performances, to the point where fantasy football enthusiasts will throw footballs in the parking lot in an attempt to predict game script. Of course, precipitation is generally understood to be a factor too, as teams may stick to the ground game in heavy rain or snow.
